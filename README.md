@@ -2,7 +2,7 @@
 
 
 # Aim : 
-
+ 
 To find mean and variance of arrival of objects from the feeder using probability distribution
 
 
