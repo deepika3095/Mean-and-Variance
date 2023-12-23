@@ -50,8 +50,9 @@ It shows the distance of a random variable from its mean. It is calcualted as
 # Program :
 
 Developed by : Deepika R
-
 Register Number : 212223230038
+
+
 ![image](https://github.com/deepika3095/Mean-and-Variance/assets/151625159/9751d527-4baa-4f71-9708-663d2847a1bd)
 
 # Output : 
