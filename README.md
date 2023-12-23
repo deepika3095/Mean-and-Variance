@@ -52,52 +52,7 @@ It shows the distance of a random variable from its mean. It is calcualted as
 Developed by : Deepika R
 
 Register Number : 212223230038
-
-
-
-import numpy as np
-
-A=[int(i) for i in input().split()]
-
-B=len(A); M=max(A)
-
-x=list(); f=list()
-
-for i in range (M+1):
-
-    c = 0
-    
-        for j in range(B):
-        
-        if A[j]==i:
-            c=c+1
-    
-    f.append(c)
-    
-    x.append(i)
-
-sf=np.sum(f)
-
-p=list()
-
-for i in range(M+1):
-
-    p.append(f[i]/sf) 
-
-mean=np.inner(x,p)
-
-EX2-np.inner(np. square(x),p)
-
-var-EX2-mean**2
-
-SD-np.sqrt(var) 
-
-print("The Mean arrival rate is %.3f "%mean) 
-
-print("The Variance of arrival from feeder is %.3f "%var)
-
-print("The Standard deviation of arrival from feeder is %.3F "%SD)
-
+![image](https://github.com/deepika3095/Mean-and-Variance/assets/151625159/9751d527-4baa-4f71-9708-663d2847a1bd)
 
 # Output : 
 ![exp1](https://github.com/deepika3095/Mean-and-Variance/assets/151625159/fa70871b-4dd2-4d46-839d-aaa91a1a3ab9)
